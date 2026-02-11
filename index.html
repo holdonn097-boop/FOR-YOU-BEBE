@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You Bebe ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Floating Hearts Background -->
+        <div class="hearts-background"></div>
+        
+        <!-- Main Content -->
+        <div class="content">
+            <div class="title-section">
+                <h1>For You Bebe</h1>
+                <p class="subtitle">A little something special...</p>
+            </div>
+
+            <!-- Message Section -->
+            <div class="message-section">
+                <div class="message-card">
+                    <h2>Happy Valentine's Day! 💕</h2>
+                    <p>
+                        Every moment with you is a treasure. Your smile brightens my day, 
+                        and your love makes my heart complete. Thank you for being the most 
+                        amazing person in my life. I love you more than words can express.
+                    </p>
+                    <p class="signature">With all my love,<br>Forever yours ❤️</p>
+                </div>
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="gallery-section">
+                <h2>Our Beautiful Memories</h2>
+                <div class="gallery">
+                    <div class="photo-card">
+                        <div class="photo-placeholder">
+                            <p>📸 Add your photo here</p>
+                        </div>
+                        <p class="photo-caption">Memory 1</p>
+                    </div>
+                    <div class="photo-card">
+                        <div class="photo-placeholder">
+                            <p>📸 Add your photo here</p>
+                        </div>
+                        <p class="photo-caption">Memory 2</p>
+                    </div>
+                    <div class="photo-card">
+                        <div class="photo-placeholder">
+                            <p>📸 Add your photo here</p>
+                        </div>
+                        <p class="photo-caption">Memory 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reasons Why I Love You -->
+            <div class="reasons-section">
+                <h2>Reasons Why I Love You</h2>
+                <div class="reasons-list">
+                    <div class="reason-item">
+                        <span class="reason-number">1</span>
+                        <p>Your beautiful smile</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="reason-number">2</span>
+                        <p>Your kind heart</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="reason-number">3</span>
+                        <p>The way you make me laugh</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="reason-number">4</span>
+                        <p>Your infectious energy</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="reason-number">5</span>
+                        <p>How you understand me</p>
+                    </div>
+                    <div class="reason-item">
+                        <span class="reason-number">6</span>
+                        <p>Everything about you</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Button -->
+            <div class="button-section">
+                <button class="love-button" onclick="showSurprise()">Click for a Surprise 💌</button>
+                <div id="surpriseMessage" class="surprise-message hidden">
+                    <p>Will you be my Valentine?</p>
+                    <button onclick="sayYes()">YES! 😍</button>
+                    <button onclick="sayNo()" class="no-btn">No ❌</button>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p>Made with ❤️ for you bebe</p>
+                <p id="countdown"></p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
